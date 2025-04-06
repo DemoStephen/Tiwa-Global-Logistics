@@ -22,7 +22,7 @@ Welcome to **Tiwa Global Logistics**, your trusted partner in delivering seamles
 
 For inquiries or to learn more about our services, reach out to us:
 
-- **Website**: [www.tiwaglobal.com](http://www.tiwaglobal.com)
+- **Website**: [www.tiwaglobal.com](https://tiwagloballogistics.vercel.app/)
 - **Email**: <tiwagloballogistics@gmail.com>
 - **Phone**: +(234) 706 329 9276
 - **Address**: 43 Mosholashi Street, Ilewe Ejigbo, Ejigbo, Nigeria
