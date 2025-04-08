@@ -1,10 +1,13 @@
 import { Outlet } from "react-router";
+import Navigation from "./UI/Navigation";
 
 export default function Layout() {
   return (
     <>
-      Hello from Layout
-      <Outlet />
+      <Navigation />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 }
