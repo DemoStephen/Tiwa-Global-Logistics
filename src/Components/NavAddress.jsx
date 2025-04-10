@@ -1,8 +1,10 @@
 import NavIcon from "./NavIcon";
-
+import tiktok from "../assets/SVG/tiktok.svg";
+import facebook from "../assets/SVG/facebook.svg";
+import instagram from "../assets/SVG/instagram.svg";
 export default function NavAddress() {
   return (
-    <aside className="text-xs flex gap-4 justify-between items-center bg-gray-950 text-slate-200 px-[5%]">
+    <aside className="text-xs flex gap-4 justify-between items-center bg-slate-200 text-slate-900 px-[5%]">
       <p className="hidden md:block">
         <b>Opening Hours:</b> Mon - Friday 9AM to 5PM - Closed on weekends
       </p>
@@ -12,12 +14,24 @@ export default function NavAddress() {
           Location Near you, <b>Ilewe Ejigbo</b>
         </address>
 
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-3 items-center">
           <b>REACH US</b>
-          <ul className="flex gap-1">
-            <NavIcon icon="#" alt="tiktok" />
-            <NavIcon icon="#" alt="facebook" />
-            <NavIcon icon="#" alt="instagram" />
+          <ul className="flex gap-2">
+            <NavIcon
+              icon={tiktok}
+              alt="tiktok"
+              link={"https://www.tiktok.com/@tiwalogistics"}
+            />
+            <NavIcon
+              icon={facebook}
+              alt="facebook"
+              link={"https://web.facebook.com/tiwalogistics/"}
+            />
+            <NavIcon
+              icon={instagram}
+              alt="instagram"
+              link={"https://www.instagram.com/tiwagloballogistics/"}
+            />
           </ul>
         </div>
       </aside>
